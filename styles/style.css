@@ -26,3 +26,78 @@ body {
     --font-secondary: "Inter", sans-serif;
 }
 
+.btn-primary {
+    padding: 12px 36px;
+    background: var(--accent-color);
+    color: var(--bg-light);
+    border: var(--accent-color) solid 2px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--font-primary);
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: linear .3s;
+    -webkit-transition: linear .3s;
+    -moz-transition: linear .3s;
+    -ms-transition: linear .3s;
+    -o-transition: linear .3s;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--accent-color);
+}
+
+/* header start */
+
+header {
+    background: url(../Assets/Hero-bg.png);
+    height: 100dvh;
+    background-size: contain;
+    padding-top: 50px;
+}
+
+/* nav section start */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-family: var(--font-secondary);
+    font-size: 34px;
+    font-weight: 900;
+}
+
+/* nav section end */
+
+/* banner section start */
+.banner {
+    height: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 37px;
+}
+
+.banner h1 {
+    font-family: var(--font-primary);
+    font-size: 65px;
+    font-weight: 700;
+    color: var(--text-color-primary);
+    max-width: 900px;
+    text-align: center  ;
+}
+/* banner section end */
+
+/* header end */
