@@ -278,3 +278,63 @@ nav a {
     -o-border-radius: 48px;
 }
 /* focus section end */
+
+
+/* get in touch section start */
+
+.get-in-touch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-secondary);
+    flex-wrap: wrap;
+}
+
+.get-in-touch h1 {
+    max-width: 528px;
+    font-size: 97px;
+    font-weight: 700;
+    font-family: var(--font-primary);
+}
+
+.form-wrapper {
+    width: 500px;
+}
+
+.form-wrapper form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-wrapper form label {
+    color: var(--text-color-primary);
+    font-family: var(--font-secondary);
+}
+
+.form-wrapper form input, textarea {
+    padding: 20px 32px;
+    background: var(--bg-light);
+    border: #D6DDED solid 1px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.form-wrapper form textarea {
+    height: 135px;
+    font-family: var(--font-secondary);
+}
+
+.form-wrapper form input::placeholder {
+    color: var(--text-mute);
+    font-family: var(--font-secondary);
+}
+
+/* get in touch section end */
