@@ -9,6 +9,10 @@ body {
     background: #F5F8FF;
 }
 
+section {
+    margin-top: 116px !important;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -50,6 +54,13 @@ body {
 .btn-primary:hover {
     background: transparent;
     color: var(--accent-color);
+}
+
+.sec-title {
+    font-family: var(--font-primary);
+    color: var(--text-color-primary);
+    font-size: 38px;
+    font-weight: 700;
 }
 
 /* header start */
@@ -101,3 +112,37 @@ nav a {
 /* banner section end */
 
 /* header end */
+
+
+/* action section start */
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.action-content {
+    max-width: 517px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.action-content p {
+    font-family: var(--font-primary);
+    font-size: 24px;
+    color: var(--text-mute);
+}
+
+.action-img img {
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+}
+/* action section end */
