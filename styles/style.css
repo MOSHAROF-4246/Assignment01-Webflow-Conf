@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F8FF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+
+:root {
+    --text-color-primary: #252432;
+    --text-mute: rgba(37, 36, 50, 0.5);
+    --accent-color: #4E47FF;
+    --bg-secondary: rgba(78, 71, 255, 0.1);
+    --bg-light: #FFFFFF;
+    --font-primary: "Raleway", sans-serif;
+    --font-secondary: "Inter", sans-serif;
+}
+
