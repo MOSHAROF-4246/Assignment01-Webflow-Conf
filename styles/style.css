@@ -147,6 +147,7 @@ nav a {
 }
 
 .action-img img {
+    max-width: 100%;
     border-radius: 48px;
     -webkit-border-radius: 48px;
     -moz-border-radius: 48px;
