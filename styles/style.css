@@ -198,8 +198,9 @@ nav a {
 
 .user-feedback-card-wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    gap: 30px;
     flex-direction: row;
     flex-wrap: wrap;
     font-family: var(--font-primary);
@@ -250,3 +251,30 @@ nav a {
     -o-border-radius: 50%;
 }
 /* feedback section end */
+
+/* focus section start */
+.focus {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-primary);
+    padding: 71px;
+    background: var(--bg-light);
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.focus img {
+    width: 100%;
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+}
+/* focus section end */
