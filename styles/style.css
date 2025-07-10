@@ -67,6 +67,10 @@ section {
     text-align: center;
 }
 
+.text-mute {
+    color: var(--text-mute);
+}
+
 /* header start */
 
 header {
@@ -188,3 +192,61 @@ nav a {
 
 
 /* productive users section end */
+
+/* feedback section start */
+
+
+.user-feedback-card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: var(--font-primary);
+    margin-top: 50px;
+}
+
+.user-feedback-card {
+    display: flex;
+    flex-direction: column;
+    /* gap: 24px; */
+    width: 366px;
+    height: 243px;
+    padding: 24px;
+    background-color: var(--bg-light);
+    border: #F2EDED solid 1px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.user-review {
+    margin-bottom: 24px;
+}
+
+.user-review img {
+    max-width: 100%;
+}
+
+.user-feedback-card h5 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.user-info img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* feedback section end */
