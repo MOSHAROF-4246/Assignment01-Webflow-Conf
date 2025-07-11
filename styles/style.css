@@ -76,7 +76,8 @@ section {
 header {
     background: url(../Assets/Hero-bg.png);
     height: 100dvh;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     padding-top: 50px;
 }
 
@@ -101,7 +102,7 @@ nav a {
 
 /* banner section start */
 .banner {
-    height: 85%;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -331,10 +332,12 @@ nav a {
 
 .form-wrapper form textarea {
     height: 135px;
-    font-family: var(--font-secondary);
+    
 }
 
-.form-wrapper form input::placeholder {
+
+.form-wrapper form input::placeholder,
+.form-wrapper form textarea::placeholder {
     color: var(--text-mute);
     font-family: var(--font-secondary);
 }
@@ -394,3 +397,58 @@ footer a {
     color: var(--accent-color);
 }
 /* footer seciton end */
+
+
+/* responsive */
+@media screen and (max-width: 767px) {
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .sec-title {
+        font-size: 30px;
+    }
+
+
+    .action-img img {
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .productive-users {
+        padding: 50px 20px;
+    }
+
+    .focus {
+        padding: 50px 16px;
+    }
+
+    .focus img {
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .get-in-touch {
+        padding: 50px 16px;
+    }
+
+    .get-in-touch h1 {
+        font-size: 44px;
+        margin-bottom: 40px;
+    }
+
+    .footer-logo {
+        font-size: 60px;
+    }
+
+    .footer-links ul {
+        flex-direction: column;
+    }
+}
+/* responsive */
